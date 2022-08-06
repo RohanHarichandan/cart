@@ -1,10 +1,13 @@
+import React from 'react';
 
+import Cartitem from './CartItem';
 
 
 function App() {
   return (
     <div className="App">
-     <h1>cart</h1>
+    
+     <Cartitem/>
     </div>
   );
 }
